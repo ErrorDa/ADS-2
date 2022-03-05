@@ -40,6 +40,6 @@ double cosn(double x, uint16_t count) {
 	if (count <= 0)
 		return x;
 	else
-		return pown(-1, (count - 1)) * calcItem(x, (2 * count - 2)) + pown(-1, (count - 3)) * calcItem(x, (2 * count - 3));
+	 return pown(-1, (count - 1)) * calcItem(x, (2 * count - 2)) + pown(-1, (count - 3)) * calcItem(x, (2 * count - 3));
 
 }
